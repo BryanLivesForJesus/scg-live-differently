@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul & Roy's Men's Group | SCG Live Differently</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --scg-teal: #1DB3C8; /* Approximated from your flyers */
+            --scg-black: #111111;
+            --scg-white: #FFFFFF;
+            --scg-gray: #F4F4F4;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--scg-gray);
+            color: var(--scg-black);
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Bebas Neue', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            line-height: 1.1;
+        }
+
+        /* Header */
+        header {
+            background-color: var(--scg-black);
+            color: var(--scg-white);
+            padding: 2rem 1rem;
+            text-align: center;
+            border-bottom: 5px solid var(--scg-teal);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            color: var(--scg-white);
+        }
+
+        header p {
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        /* Alert Box */
+        .alert-box {
+            background-color: var(--scg-teal);
+            color: var(--scg-white);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .alert-box h2 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* Sections */
+        section {
+            background-color: var(--scg-white);
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        section h2 {
+            font-size: 2.2rem;
+            color: var(--scg-teal);
+            border-bottom: 2px solid var(--scg-gray);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            background-color: var(--scg-black);
+            color: var(--scg-white);
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 700;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+            text-align: center;
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+        .btn:hover {
+            background-color: var(--scg-teal);
+            color: var(--scg-white);
+        }
+
+        /* Table */
+        .schedule-wrapper {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+            min-width: 500px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--scg-gray);
+        }
+
+        th {
+            background-color: var(--scg-black);
+            color: var(--scg-white);
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.2rem;
+            letter-spacing: 1px;
+        }
+
+        tr.highlight {
+            background-color: rgba(29, 179, 200, 0.15);
+            font-weight: 700;
+            border-left: 4px solid var(--scg-teal);
+        }
+
+        /* Mobile Adjustments */
+        @media (min-width: 600px) {
+            .btn {
+                width: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Paul & Roy's Men's Group</h1>
+        <p>SCG CHURCH | LIVE DIFFERENTLY DISCIPLESHIP</p>
+    </header>
+
+    <div class="container">
+
+        <div class="alert-box">
+            <h2>🚨 UPCOMING: FAST & GOOD FRIDAY!</h2>
+            <p><strong>Thursday, April 2 - Friday, April 3</strong></p>
+            <p style="margin-top: 10px;">Our group fasting day begins on Thursday, April 2nd and runs through Friday, April 3rd! We have decided as a group to all meet at the <strong>Good Friday Service at 6:30 PM</strong>. Afterwards, we will go out to dinner to break our fast together. See you there!</p>
+        </div>
+
+        <section>
+            <h2>The Curriculum</h2>
+            <p>We are diving into a 10-week discipleship program. Please remember to complete your reading and bring your workbooks to our meetings!</p>
+            <a href="https://beacons.ai/scgdiscipleship" target="_blank" class="btn">🎧 Listen to the Supplemental Podcast</a>
+        </section>
+
+        <section>
+            <h2>Serving Together</h2>
+            <p>We are currently waiting on SCG to give us our official Discipleship Serve assignment for Easter weekend.</p>
+            <p style="margin-top: 10px;">However, as Roy mentioned, <strong>we are hoping to be assigned as Greeters!</strong> Welcoming people as they arrive is both fun and incredibly important—we might just be the first impression that helps change someone's life! Stay tuned for our official time slot.</p>
+        </section>
+
+        <section>
+            <h2>Spring 2026 Schedule</h2>
+            <p>Below is our schedule for Testimonies and Snacks. <em>(The row highlighted in teal is our next upcoming meeting!)</em></p>
+            
+            <div class="schedule-wrapper">
+                <table id="scheduleTable">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Topic</th>
+                            <th>Testimony</th>
+                            <th>Snacks</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-date="2026-03-15">
+                            <td>3/15</td><td>Week 1: Launch</td><td>Michael</td><td>Michael</td>
+                        </tr>
+                        <tr data-date="2026-03-22">
+                            <td>3/22</td><td>Week 2: Jesus is King</td><td>Ray/Mike</td><td>Ray/Mike</td>
+                        </tr>
+                        <tr data-date="2026-03-29">
+                            <td>3/29</td><td>Week 3: Jesus is Our King</td><td>Johnny</td><td>Johnny</td>
+                        </tr>
+                        <tr data-date="2026-04-03">
+                            <td>4/3</td><td>GOOD FRIDAY</td><td>Group Service</td><td>Dinner After</td>
+                        </tr>
+                        <tr data-date="2026-04-05">
+                            <td>4/5</td><td>EASTER SUNDAY</td><td>No Meeting</td><td>-</td>
+                        </tr>
+                        <tr data-date="2026-04-12">
+                            <td>4/12</td><td>Week 4: Living in Grace</td><td>Joe E.</td><td>Joe E.</td>
+                        </tr>
+                        <tr data-date="2026-04-19">
+                            <td>4/19</td><td>Week 5: Living in Love</td><td>Todd/Guest</td><td>Todd/Guest</td>
+                        </tr>
+                        <tr data-date="2026-04-26">
+                            <td>4/26</td><td>Week 6: Marriage</td><td>Zac</td><td>Zac</td>
+                        </tr>
+                        <tr data-date="2026-05-03">
+                            <td>5/3</td><td>Week 7: Family</td><td>Mark</td><td>Mark</td>
+                        </tr>
+                        <tr data-date="2026-05-10">
+                            <td>5/10</td><td>Week 8: 10 Commandments</td><td>Bryan</td><td>Bryan</td>
+                        </tr>
+                        <tr data-date="2026-05-17">
+                            <td>5/17</td><td>Week 9: Life on Mission</td><td>TBD</td><td>TBD</td>
+                        </tr>
+                        <tr data-date="2026-05-24">
+                            <td>5/24</td><td>Review/Celebration</td><td>TBD</td><td>TBD</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const rows = document.querySelectorAll('#scheduleTable tbody tr');
+            const today = new Date();
+            today.setHours(0,0,0,0); // Normalize today to midnight
+            
+            let closestRow = null;
+            let closestDiff = Infinity;
+
+            rows.forEach(row => {
+                const dateStr = row.getAttribute('data-date');
+                if (dateStr) {
+                    // Parse the row date (splitting prevents timezone shifting issues)
+                    const [year, month, day] = dateStr.split('-');
+                    const rowDate = new Date(year, month - 1, day);
+                    
+                    // Calculate difference in time
+                    const diffTime = rowDate - today;
+                    
+                    // If the date is today or in the future, check if it's the closest
+                    if (diffTime >= 0 && diffTime < closestDiff) {
+                        closestDiff = diffTime;
+                        closestRow = row;
+                    }
+                }
+            });
+
+            // Highlight the closest upcoming meeting
+            if (closestRow) {
+                closestRow.classList.add('highlight');
+            }
+        });
+    </script>
+</body>
+</html>
+
