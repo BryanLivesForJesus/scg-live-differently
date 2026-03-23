@@ -47,11 +47,11 @@ const todayScripture = document.getElementById("todayScripture");
 const todayRead = document.getElementById("todayRead");
 const todayVerseRef = document.getElementById("todayVerseRef");
 
-const STORAGE_KEY = "live-differently-week1-progress";
+const STORAGE_KEY = "live-differently-week1-paul-roy-progress";
 
 function setTodayCard() {
   const now = new Date();
-  const today = now.getDay();
+  const today = now.getDay(); // Sunday 0 ... Saturday 6
 
   let currentIndex = 0;
   if (today >= 1 && today <= 5) {
@@ -66,12 +66,14 @@ function setTodayCard() {
 
   openCard(current.index);
 
-  jumpToTodayBtn.addEventListener("click", () => {
-    document.getElementById(`day-${current.index}`).scrollIntoView({
-      behavior: "smooth",
-      block: "start"
+  if (jumpToTodayBtn) {
+    jumpToTodayBtn.addEventListener("click", () => {
+      document.getElementById(`day-${current.index}`).scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
     });
-  });
+  }
 }
 
 function openCard(index) {
